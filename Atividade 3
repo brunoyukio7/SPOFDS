@@ -87,3 +87,37 @@ git checkout v1
 
 Item: 5
 git commit
+
+---
+
+ Seção: 5
+
+Item: 1
+
+git rebase main bugFix
+git rebase bugFix side
+git rebase side another
+git rebase another main
+
+Item: 2
+git branch bugWork main^^2^
+
+
+Item: 3
+git checkout one
+git cherry-pick C4 C3 C2
+git checkout two
+git cherry-pick C5 C4 C3 C2
+git branch -f three C2
+
+
+
+
+
+
+
+
+
+
+
+
